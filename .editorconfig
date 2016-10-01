@@ -1,0 +1,9 @@
+root=true
+
+[*.ex]
+indent_style = space
+indent_size = 2
+
+[*.exs]
+indent_style = space
+indent_size = 2
