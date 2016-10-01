@@ -13,7 +13,7 @@ defmodule Example do
     end
 
     if options[:output] do
-      IO.puts "output: #{options[:output]}"
+      IO.puts "Hello World"
     end
 
     if options[:serve] do
