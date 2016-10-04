@@ -18,3 +18,9 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:example]]
         end
 
+
+## Compile
+
+```bash
+$ mix escript.build
+```

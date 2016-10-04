@@ -17,7 +17,9 @@ defmodule Example do
     end
 
     if options[:serve] do
-      IO.puts "serve: #{options[:serve]}"
+      IO.puts "Starting server.."
+      HexVersion.Api.start
+      IO.puts "foo" ; :timer.sleep(10000); IO.puts "bar"
     end
   end
 
