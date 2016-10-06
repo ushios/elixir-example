@@ -35,6 +35,7 @@ defmodule Example.Mixfile do
       {:cowboy, "~> 1.0.3"},
       {:plug, "~> 1.0"},
       {:httpotion, "~> 3.0.2"},
+      {:exrm, "~> 1.0.8"}
     ]
   end
 end
